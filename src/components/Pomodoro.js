@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 
 function Pomodoro() {
 
-  const [minutes, setMinutes]= useState(1);
+  const [minutes, setMinutes]= useState(25);
   const [seconds, setSeconds]= useState(0);
   const [displayMessage, setDisplayMessage]= useState(false);
 
